@@ -49,19 +49,21 @@
   position: relative;
   width: 60px;
   height: 60px;
-  background: url("menu.png");
+  background: url("menu1.png");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
   cursor: pointer;
+  filter: invert(1);
 }
 
 .toggle.active {
-  background: url("close.png");
+  background: url("close1.png");
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
   cursor: pointer;
+  filter: invert(1);
 }
 .showcase video {
   position: absolute;
