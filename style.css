@@ -86,6 +86,7 @@
 }
 .text {
   position: relative;
+  margin-left: 250px;
   z-index: 10;
 }
 
